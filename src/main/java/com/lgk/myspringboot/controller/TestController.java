@@ -48,5 +48,8 @@ public class TestController {
     public String returnNew(){
         return "new";
     }
+    public String returnNew2(){
+        return "new2";
+    }
 
 }
