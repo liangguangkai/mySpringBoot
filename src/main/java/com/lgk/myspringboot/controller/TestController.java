@@ -52,4 +52,17 @@ public class TestController {
         return "new2";
     }
 
+
+
+    public String returnNew1(){
+        return "new";
+    }
+
+    public String returnNew222(){
+        return "new222";
+    }
+
+
+
+
 }
