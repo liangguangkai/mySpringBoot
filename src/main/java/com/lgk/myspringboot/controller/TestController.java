@@ -40,4 +40,13 @@ public class TestController {
 
     }
 
+    @GetMapping("new")
+    public String testNew(){
+        return returnNew();
+    }
+
+    public String returnNew(){
+        return "new";
+    }
+
 }
