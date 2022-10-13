@@ -11,6 +11,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
 /**
  * @author liangguangkai
@@ -35,4 +36,8 @@ public class Man implements Serializable {
     @TableField(value = "money")
     @ApiModelProperty(value="")
     private Integer money;
+
+    @TableField(value = "created_at")
+    @ApiModelProperty(value="")
+    private LocalDateTime createdAt;
 }
